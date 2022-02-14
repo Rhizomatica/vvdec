@@ -199,5 +199,8 @@ set_target_properties( ${LIB_NAME} PROPERTIES
                                    )
 
 # set the folder where to place the projects
-set_target_properties( ${LIB_NAME} PROPERTIES FOLDER lib )
-
+set_target_properties( ${LIB_NAME} PROPERTIES
+  VERSION 0.0.0
+  SOVERSION 0
+  FOLDER lib
+)
